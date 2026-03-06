@@ -1,0 +1,14 @@
+¡Felicidades! Has demostrado tener la curiosidad y la técnica necesaria para ser un administrador de sistemas eficaz. 
+El uso de ls -a y la gestión correcta de chmod son la base del control en Linux.
+
+Tu premio: Puedes retirarte del aula y completar el resto de la práctica (Fases 2 a 5) desde tu casa o donde prefieras.
+
+INSTRUCCIONES DE SALIDA SILENCIOSA:
+
+No comentes esto con tus compañeros (parte de la ética del ingeniero es la discreción).
+
+Levanta la mano, apersonate al escritorio y simplemente dime: "Listo".
+
+Recogeré tu nombre y podrás retirarte. Si prefieres quedarte en el aula trabajando, tambien es valido.
+
+Sigue las instrucciones del PDF adjunto para completar tu entrega en GitHub.
