@@ -1,0 +1,69 @@
+1:error: memoria llena
+4:error: archivo no encontrado
+2:info: proceso iniciado
+5:info: proceso terminado
+6 datos/nombres.txt
+2
+ana
+ana
+juan
+juan
+maria
+pedro
+./resultado_practica4.txt
+./datos/nombres.txt
+./datos/log.txt
+3
+error: archivo no encontrado
+error: memoria llena
+  850  cd ..
+  851  grep -n "error" /datos/log.txt
+  852  grep -n "error" datos/log.txt 
+  853  grep -n "error" datos/log.txt >> resultado_practica4.txt
+  854  cat resultado_practica4.txt 
+  855  grep -n "info" datos/log.txt 
+  856  grep -n "info" datos/log.txt >> resultado_practica4.txt 
+  857  clear
+  858  wc -l datos/nombres.txt 
+  859  wc -l datos/nombres.txt >> resultado_practica4.txt 
+  860  wc -l grep "ana" datos/nombres.txt 
+  861  wc -l grep datos/nombres.txt "ana" 
+  862  grep "ana" datos/nombres.txt | wc -l
+  863  grep "ana" datos/nombres.txt | wc -w
+  864  grep "ana" datos/nombres.txt | wc -w >> resultado_practica4.txt 
+  865  clear
+  866  sort datos/nombres.txt 
+  867  sort datos/nombres.txt >> resultado_practica4.txt 
+  868  clear
+  869  find . -name "*.txt
+  870  find . -name "*.txt"
+  871  find . -name "*.txt" >> resultado_practica4.txt 
+  872  clear
+  873  find . -name "*.txt" | wc -l >> resultado_practica4.txt 
+  874  find . -name "*.txt" | wc -l 
+  875  find . -name "*.txt" | wc
+  876  clear
+  877  grep "error" datos/log.txt | sort 
+  878  grep "error" datos/log.txt | sort >> resultado_practica4.txt 
+  879  cd ..
+  880  ls
+  881  clear
+  882  ls
+  883  cd practica_linux/
+  884  ls
+  885  mv resultado_practica4.txt ../AlvaroThg-IMT-131AlvaroBaldiviezo/
+  886  clear
+  887  cd ..
+  888  ls
+  889  cd AlvaroThg-IMT-131AlvaroBaldiviezo/
+  890  ls
+  891  clear
+  892  ls 
+  893  mv resultado_practica4.txt 01_Tareas/
+  894  cd 01_Tareas/
+  895  clear
+  896  ls
+  897  cat resultado_practica4.txt 
+  898  history 30
+  899  history 50
+  900  history 51 >> resultado_practica4.txt 
