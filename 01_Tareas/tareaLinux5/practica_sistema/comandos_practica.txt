@@ -1,0 +1,202 @@
+total 16
+drwxr-xr-x 2 alvaro alvaro 4096 Mar 12 16:26 backup
+-rw-r--r-- 1 alvaro alvaro    0 Mar 12 16:27 comandos_practica.txt
+drwxr-xr-x 2 alvaro alvaro 4096 Mar 12 16:26 datos
+drwxr-xr-x 2 alvaro alvaro 4096 Mar 12 16:26 reportes
+drwxr-xr-x 2 alvaro alvaro 4096 Mar 12 16:26 scripts
+total 28
+drwxr-xr-x 6 alvaro alvaro 4096 Mar 12 16:32 .
+drwxr-xr-x 3 alvaro alvaro 4096 Mar 12 16:21 ..
+drwxr-xr-x 2 alvaro alvaro 4096 Mar 12 16:26 backup
+-rw-r--r-- 1 alvaro alvaro  286 Mar 12 16:28 comandos_practica.txt
+drwxr-xr-x 2 alvaro alvaro 4096 Mar 12 16:33 datos
+drwxr-xr-x 2 alvaro alvaro 4096 Mar 12 16:26 reportes
+drwxr-xr-x 2 alvaro alvaro 4096 Mar 12 16:26 scripts
+accesos.log
+usuarios.txt
+total 16
+drwxr-xr-x 2 alvaro alvaro 4096 Mar 12 16:33 .
+drwxr-xr-x 6 alvaro alvaro 4096 Mar 12 16:32 ..
+-rw-r--r-- 1 alvaro alvaro  218 Mar 12 16:33 accesos.log
+-rw-r--r-- 1 alvaro alvaro   36 Mar 12 16:29 usuarios.txt
+./datos/usuarios.txt
+./comandos_practica.txt
+./datos/accesos.log
+2
+error: contraseña incorrecta juan
+error: usuario no encontrado carlos
+error: contraseña incorrecta ana
+3
+info: login correcto ana
+info: login correcto maria
+info: login correcto lucas
+ana
+ana
+juan
+juan
+lucas
+maria
+pedro
+7 datos/usuarios.txt
+error: contraseña incorrecta ana
+error: contraseña incorrecta juan
+error: usuario no encontrado carlos
+7 datos/usuarios.txt
+3
+ana
+ana
+juan
+juan
+lucas
+maria
+pedro
+  951  claer
+  952  clear
+  953  echo "ana" >> usuarios.txt 
+  954  echo "juan" >> usuarios.txt 
+  955  echo "pedro" >> usuarios.txt 
+  956  echo "ana" >> usuarios.txt 
+  957  echo "maria" >> usuarios.txt 
+  958  echo "juan" >> usuarios.txt 
+  959  echo "lucas" >> usuarios.txt 
+  960  clear
+  961  touch accesos.log
+  962  echo "info: login correcto ana" >> accesos.log
+  963  echo "error: contraseña incorrecta juan" >> accesos.log
+  964  clear
+  965  echo "info: login correcto maria" >> accesos.log
+  966  echo "warning: intento sospechoso pedro" >> accesos.log
+  967  echo "error: usuario no encontrado carlos" >> accesos.log
+  968  echo "info: login correcto lucas" >> accesos.log
+  969  echo "error: contrase~na incorrecta ana" >> accesos.log
+  970  clear
+  971  cd ..
+  972  clear
+  973  nano accesos.log
+  974  ls
+  975  ls -l
+  976  clear
+  977  cd datos
+  978  ls
+  979  nano accesos.log 
+  980  cat accesos.log 
+  981  clear
+  982  cd ..
+  983  clear
+  984  ls
+  985  ls -la
+  986  ls -la >> comandos_practica.txt 
+  987  clear
+  988  cat comandos_practica.txt 
+  989* clear
+  990  cat comandos_practica.txt 
+  991  clear
+  992  l 
+  993  clear
+  994  ls
+  995  clear
+  996  ls -a
+  997  ls -l
+  998  clear
+  999  ls -a
+ 1000  ls datos/
+ 1001  clear
+ 1002  ls datos/ >> comandos_practica.txt 
+ 1003  claer
+ 1004  clear
+ 1005  ls -la datos/
+ 1006  ls -la datos/ >> comandos_practica.txt 
+ 1007  clear
+ 1008  find . "*.txt"
+ 1009  find . ".txt"
+ 1010  clear
+ 1011  find . -name "*.txt"
+ 1012  clear
+ 1013  find . -name "*.txt" >> comandos_practica.txt 
+ 1014  clear
+ 1015  find . -name "*.log"
+ 1016  find . -name "*.log" >> comandos_practica.txt 
+ 1017  clear
+ 1018  find . -name "*.txt" | wc
+ 1019  find . -name "*.txt" | wc -l
+ 1020  find . -name "*.txt" | wc -l >> comandos_practica.txt 
+ 1021  clear
+ 1022  ls
+ 1023  clear
+ 1024  cd datos/
+ 1025  ls
+ 1026  clear
+ 1027  cd ..
+ 1028  clear
+ 1029  grep "error" datos/accesos.log 
+ 1030  grep "error" datos/accesos.log >> comandos_practica.txt 
+ 1031  clear
+ 1032  grep -c "error" datos/accesos.log 
+ 1033* grep "error" datos/accesos.log >> comandos_practica.txt 
+ 1034  clear
+ 1035  grep "info" datos/accesos.log 
+ 1036  grep "info" datos/accesos.log >> comandos_practica.txt 
+ 1037  sort datos/usuarios.txt 
+ 1038  sort datos/usuarios.txt >> comandos_practica.txt 
+ 1039  wc -l datos/usuarios.txt 
+ 1040  wc -l datos/usuarios.txt >> comandos_practica.txt 
+ 1041  clear
+ 1042  cd datosl
+ 1043  cd datos
+ 1044  ls
+ 1045  clear
+ 1046  cd ..
+ 1047  find datos/accesos.log "error" | sort
+ 1048  grep "error" datos/accesos.log | sort
+ 1049  grep "error" datos/accesos.log | sort >> comandos_practica.txt 
+ 1050  clear
+ 1051  ls
+ 1052  cd reportes/
+ 1053  ls
+ 1054  clear
+ 1055  touch reporte_sistema.txt
+ 1056  clear
+ 1057  ls
+ 1058  ls -la
+ 1059  chmod +x reporte_sistema.txt 
+ 1060  ls -la
+ 1061  rm reporte_sistema.txt 
+ 1062  clear
+ 1063  ls
+ 1064  cd ..
+ 1065  clear
+ 1066  ls
+ 1067  wc -l datos/usuarios.txt 
+ 1068  wc -l datos/usuarios.txt >> reportes/reporte_sistema.txt
+ 1069  clear
+ 1070  wc -l datos/usuarios.txt >> comandos_practica.txt 
+ 1071  clear
+ 1072  grep "error" datos/accesos.log | wc -l
+ 1073  grep "error" datos/accesos.log | wc -l >> reportes/reporte_sistema.txt 
+ 1074  grep "error" datos/accesos.log | wc -l >> comandos_practica.txt 
+ 1075  clear
+ 1076  sort datos/usuarios.txt 
+ 1077  sort datos/usuarios.txt >> reportes/reporte_sistema.txt 
+ 1078  sort datos/usuarios.txt >> comandos_practica.txt 
+ 1079  clear
+ 1080  sort -n datos/usuarios.txt 
+ 1081  clear
+ 1082  cat reportes/reporte_sistema.txt 
+ 1083  clear
+ 1084  touch scripts/analisis.sh
+ 1085  clear
+ 1086  ls scripts/
+ 1087  clear
+ 1088  cd scripts/
+ 1089  ls
+ 1090  nano analisis.sh 
+ 1091  ./analisis.sh
+ 1092  chmod +x analisis.sh 
+ 1093  ./analisis.sh
+ 1094  clear
+ 1095  cd ..
+ 1096  ls
+ 1097  history 50
+ 1098  history 200
+ 1099  history 150
+ 1100  history 150 >> comandos_practica.txt 

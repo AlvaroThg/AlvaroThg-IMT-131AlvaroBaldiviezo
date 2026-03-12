@@ -1,0 +1,9 @@
+7 datos/usuarios.txt
+3
+ana
+ana
+juan
+juan
+lucas
+maria
+pedro
