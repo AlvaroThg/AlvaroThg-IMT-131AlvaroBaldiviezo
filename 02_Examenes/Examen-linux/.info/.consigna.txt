@@ -1,0 +1,150 @@
+EXAMEN PRÁCTICO DE LINUX SIMULACRO
+Programación Superior
+
+Indicaciones:
+
+El examen debe resolverse únicamente desde la terminal.
+
+Dentro del directorio entregado existe una estructura de archivos y carpetas.
+Algunos archivos pueden estar ocultos.
+
+Debe explorar la estructura y realizar las siguientes tareas.
+
+----------------------------------------
+
+PARTE 1: Exploración del sistema
+
+1. Identificar los directorios y archivos existentes utilizando comandos de terminal.
+
+----------------------------------------
+
+PARTE 2: Construcción de la estructura final
+
+A partir de la estructura entregada, el directorio final debe quedar de la siguiente forma:
+
+examen_linux/
+├── datos
+│   ├── usuarios.txt
+│   └── errores.log
+├── scripts
+│   └── script.sh
+├── docs
+│   ├── notas_final.txt
+│   └── ayuda.txt
+├── salida
+│   ├── resultado_examen.txt
+│   ├── estructura_final.txt
+│   └── permisos.txt
+└── .info
+    └── consigna.txt
+
+----------------------------------------
+
+PARTE 3: Cambios requeridos
+
+1. Crear los directorios:
+   datos
+   scripts
+   docs
+
+2. Mover y renombrar archivos según corresponda.
+
+3. El archivo:
+
+entrada/usuarios.tmp
+
+debe convertirse en:
+
+datos/usuarios.txt
+
+4. El archivo:
+
+entrada/errores.log
+
+debe moverse a:
+
+datos/errores.log
+
+5. El archivo:
+
+trabajo/script.sh
+
+debe moverse a:
+
+scripts/script.sh
+
+6. El archivo:
+
+entrada/notas.txt
+
+debe convertirse en:
+
+docs/notas_final.txt
+
+7. El archivo:
+
+recursos/ayuda.txt
+
+debe moverse a:
+
+docs/ayuda.txt
+
+----------------------------------------
+
+PARTE 4: Permisos
+
+Asignar los siguientes permisos:
+
+scripts/script.sh  → 755
+datos/usuarios.txt → 644
+docs/notas_final.txt → 444
+
+----------------------------------------
+
+PARTE 5: Análisis de archivos
+
+Determinar:
+
+1. Número total de archivos dentro del directorio examen_linux
+2. Número total de archivos .txt
+3. Número total de líneas que contienen la palabra "error"
+4. Número de usuarios registrados en datos/usuarios.txt
+5. Lista de usuarios ordenados alfabéticamente en una sola línea
+
+----------------------------------------
+
+PARTE 6: Archivos de salida
+
+Dentro del directorio salida se deben generar los siguientes archivos.
+
+resultado_examen.txt
+
+Debe tener el siguiente formato exacto:
+
+TOTAL_ARCHIVOS=valor
+TOTAL_TXT=valor
+TOTAL_ERRORES=valor
+USUARIOS_REGISTRADOS=valor
+USUARIOS_ORDENADOS=valor
+
+estructura_final.txt
+
+Debe contener la estructura completa del directorio.
+Usar este comando desde el directorio principal Examen-linux/: 
+	tree -a --noreport > salida/estructura.txt
+
+permisos.txt
+
+Debe mostrar los permisos de los directorios datos, scripts y docs.
+Usar este comando desde el directorio principal Examen-linux/:
+	tree -p -a --noreport > salida/permisos.txt 
+
+----------------------------------------
+
+ENTREGA
+
+Los archivos que se revisarán para la calificación son:
+
+salida/resultado_examen.txt
+salida/estructura_final.txt
+salida/permisos.txt

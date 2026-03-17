@@ -1,0 +1,5 @@
+TOTAL_ARCHIVO=9
+TOTAL_TXT=7
+TOTAL_ERRORES=7 (en realidad 3, pero +4 si se cuenta el archivo .consigna.txt) 
+USUARIOS_REGISTRADOS=5
+USUARIOS_ORDENADOS=ana juan lucas maria pedro
