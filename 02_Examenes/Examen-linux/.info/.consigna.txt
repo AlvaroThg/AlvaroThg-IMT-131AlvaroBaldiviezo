@@ -10,7 +10,7 @@ Algunos archivos pueden estar ocultos.
 
 Debe explorar la estructura y realizar las siguientes tareas.
 
-----------------------------------------
+---------------------------------------
 
 PARTE 1: Exploración del sistema
 
